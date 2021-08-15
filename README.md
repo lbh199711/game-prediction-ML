@@ -36,4 +36,4 @@ similar distribution when compared to the training data.<br>
 During training, we will use the grid search to optimize the hyperparameters using the
 validation accuracy, then use the best model against the test dataset.
 
-### To see the full report of this experiment, check out the pdf in this repo.
+### To see the full report of this experiment, check out *Game Result Prediction Through Different Models in Machine Learning.pdf* in this repo.
