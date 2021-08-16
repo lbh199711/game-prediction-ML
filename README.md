@@ -1,5 +1,5 @@
 # game-prediction-ML
-Predicting league of legends gamer result with different machine learning methods.
+Predicting league of legends game result with different machine learning methods.
 
 ## Introduction
 League of Legends is a popular competitive online game, where a total of 10 players are split
@@ -11,8 +11,7 @@ to predict the result of the game and compare their performance.<br>
 
 ## Experiment
 The data set we are using is found on Kaggle. This dataset contains the stats for the game at the
-10 minutes mark. Players have similar skill levels due to the game’s matchmaking system. There
-are 19 features indicating the stats per team (38 in total) collected in-game. This includes kills,
+10 minutes mark. Players have similar skill levels due to the game’s matchmaking system. 19 features are indicating the stats per team (38 in total) collected in-game. This includes kills,
 deaths, gold, experience, etc. The target has a value of 1 or 0, indicating whether the blue team
 has won at the end of the game. There are around 10,000 samples in total.<br>
 
@@ -30,7 +29,7 @@ so, we set the measure of success to the accuracy of the model’s prediction co
 target.<br>
 
 The dataset is split 60-20-20 into training, validation, and testing set. All the features in the
-datasets are normalized by the training data. This assumes validation and testing set will have
+datasets are normalized by the training data. This assumes validation and testing sets will have
 similar distribution when compared to the training data.<br>
 
 During training, we will use the grid search to optimize the hyperparameters using the
